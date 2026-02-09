@@ -1,0 +1,62 @@
+Episode - 2 : CREATE, ALTER, MODIFY & DROP COMMANDS :-
+----------------------------------------------------------------------
+
+
+                                 DATABASE NAME - MALBargashCompanyFields;
+
+
+
+
+1. Syntax To check How many Databases are Created in MYSQL WorkBench :-
+----------------------------------------------------------------------------
+
+show databases;
+
+
+2. Syntax for Creating The Database :-
+-------------------------------------------
+
+1. Sample of Example & 2. Original Syntax to execute the Query
+
+Sample - create database DatabaseName;
+
+Original - create database MALBargashCompany;
+
+
+
+3. Syntax for Use that Database :- Because we created the database and we are going to use that Database so that for the reason we use this Syntax :-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Sample Syntax - use Database Name;
+
+2. Original Syntax - use MALBargashCompanyFields;
+
+
+
+
+4. Syntax for Drop that Database :-
+------------------------------------------------------------------------------
+
+1. Sample Syntax - drop database Name;
+
+2. Original Syntax - drop database MALBargashCompanyFields;
+
+
+
+
+5. Syntax for Alter Database only they Read and Write Mode for Our Database :-
+------------------------------------------------------------------------------------------
+
+Original Syntax -  alter database read only = 1;  --> There is a 2 Number for this syntax like (1 and 2) :- 1 is only Read Mode we don't have a permission to delete the Database & 2 is For we can read and also be Delete the Database it's our wish
+
+
+
+6. Syntax for Table Creations :-
+-------------------------------------------
+
+1. Sample Syntax - create table tableName(
+    Variable-Name:                                         DataType:
+    emp_id                                                 int,
+    emp_Name                                               Varchar(250),
+    
+)
