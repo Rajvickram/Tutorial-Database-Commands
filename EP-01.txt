@@ -1,0 +1,50 @@
+SQL Tutorial :-
+------------------------
+
+
+YT Channel Name :- CODE IO;
+--------------------------------
+
+
+1. What is SQL - Structured Query Language;  --> It's called as Queries;
+
+2. We can use to Perform for - CRUD Operations;
+
+C - Create,
+R - Read,
+U - Update and  .. -> we can use this CRUD Operations to perform DB - DataBase;  --> Database to storing our Data --> In this Data we can run or perform is called DBMS; 
+D - Delete
+
+3. DBMS - DataBase Management System 
+
+
+4. DB - will have 2 Types :- Relational Database and Non-Relational Database
+
+Relational Database - We can store any values only in Table Format,
+Non Relational Database - Store any values in MongoDB, NO SQL, Firebase --> so all format in JSON Format and also Graph Format SQL is know Non-Relational Database;
+
+5. Why it's called Relational :-
+---------------------------------------
+
+Because One Table to Another Table will have one relation in this relational we can perform with Keys;
+
+...--> Keys --> Primary Key and Foreign Key
+
+
+6. Which Tool to Perform this DB and DBMS Means :-
+----------------------------------------------------------
+
+MYSQL, My SQL Server Management, Oracle SQL and Postgre SQL and MONGO DB 
+
+
+7. We are Going To Perform this DB in :- 
+-----------------------------------------------
+MYSQL 
+
+
+8. SETUP & Install The MYSQL :-
+-----------------------------------
+
+Step-1 - MYSQL Installer 8.0.44,
+Step-2 - Select - 2.1M - Click -> Download,
+Step-3 - After Install MYSQL -> Set to Custom -> MYSQL Servers - Version(8.0.44)  -> Applications - MYSQL Workbench(8.0) - MYSQL Workbench 8.0.44 - *64 -> MYSQL Shell (8.0.44 - *64);
