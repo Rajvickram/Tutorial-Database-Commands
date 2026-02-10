@@ -1,3 +1,48 @@
+Creating New Connection in MYSQL for M.AL.Bargash Company :-
+-----------------------------------------------------------------------
+Commands ---> To Create Connection For Seperate and Secure DB Connection for M.AL.BargashCompany :-
+------------------------------------------------------------------------------------------------------------
+
+Step - 1 :-
+-------------
+1. Click your existing default connection,
+2. Enter root password and
+3. This is only for creating users, not daily work
+
+
+Step - 2 :-
+---------------
+1. Create a NEW USER (Important Security Step)
+2. CREATE USER 'malb_user'@'localhost' IDENTIFIED BY 'Strong@123'; 
+My Details For the 2 is -> Change USER Name --> M.AL.Bargash_CompanyData  Password --> 170820
+
+
+Step - 3 :-
+---------------
+CREATE DATABASE malbargash_db;
+
+
+Step - 4 :-
+-----------------
+1. Give Limited Permissions (Very Important)
+2. GRANT SELECT, INSERT, UPDATE, DELETE
+   ON malbargash_db.*
+   TO 'malb_user'@'localhost';
+
+
+Step - 5 :-
+--------------------
+1. Create New Connection in MySQL Workbench
+2. Connection Name -	MALBargash_Secure_DB
+Hostname -	localhost
+Port -	3306
+Username -	M.AL.Bargash_CompanyData
+Password -	Click Store in Keychain / Vault
+
+
+
+
+
 Episode - 2 : CREATE, ALTER, MODIFY & DROP COMMANDS :-
 ----------------------------------------------------------------------
 
