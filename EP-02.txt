@@ -117,3 +117,17 @@ Original Syntax -  alter database read only = 1;  --> There is a 2 Number for th
     MABC_Department varchar(100)
 );
 
+
+
+7. Syntax For Rename Table or Database :-
+------------------------------------------------------
+
+1. Sample Syntax - rename table table_Name to U_Wish_TableName;
+
+
+
+2. Original Syntax - rename table MABC_Users to MABC_Datas;
+
+
+
+
