@@ -103,5 +103,8 @@ Original Syntax -  alter database read only = 1;  --> There is a 2 Number for th
     Variable-Name:                                         DataType:
     emp_id                                                 int,
     emp_Name                                               Varchar(250),
-    
-)
+    emp_Salary                                             Decimal(5,2),
+    emp_JoiningDate                                        date
+);
+
+
